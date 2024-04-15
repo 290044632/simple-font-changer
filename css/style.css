@@ -1,0 +1,37 @@
+body {
+    width: 600px;
+    height: 500px;
+}
+
+button.btn {
+    padding: 10px;
+    display: block;
+    width: 1px;
+    border: 2px solid #1296db;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button.add {
+    background: url(../images/add_32.png) no-repeat;
+    background-size: contain;
+}
+
+button.subtract {
+    background: url(../images/subtract_32.png) no-repeat;
+    background-size: contain;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+.button{
+    cursor: pointer;
+}
